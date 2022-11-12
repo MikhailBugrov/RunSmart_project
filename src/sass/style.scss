@@ -1,5 +1,6 @@
 @import 'base/variables';
 @import 'base/mixins';
+
 * {
     font-family: 'MuseoModerno', sans-serif;
 }
@@ -8,6 +9,10 @@ a {
 }
 
 .container {
-    min-width: 950px;
+    max-width: 950px;
     margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons'
